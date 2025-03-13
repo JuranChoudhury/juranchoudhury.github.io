@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Family History</title>
+  <title>Choudhury Family History</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,7 +28,7 @@
   <section id="members" class="section">
     <h2>Notable Family Members</h2>
     <ul>
-      <li><strong> Salah-Uddin Choudhury (1885 - Present 1938):</strong> A land owner tho introduced new farming techniques to the Johirpur District.</li>
+      <li><strong> Salah-Uddin Choudhury (1885 - 1938):</strong> A land owner tho introduced new farming techniques to the Johirpur District.</li>
       <li><strong> Halima Begum Choudhury (1902 - 1954):</strong> Inheriting fruit farms from her father, she expanded the business to become a dominant force in the jackfruit trade in the Sreemangal Distrcit during the 1930s.</li>
       
     </ul>
