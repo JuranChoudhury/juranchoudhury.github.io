@@ -3,45 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Choudhury Family History</title>
+  <title>Family-Friendly Events in London</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to Our Family History</h1>
+    <h1>Family-Friendly Events in London</h1>
     <nav>
       <ul class="navbar">
-        <li><a href="#history">Family History</a></li>
-        <li><a href="#members">Family Members</a></li>
-        <li><a href="#tree">Family Tree</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#featured">Featured Events</a></li>
+        <li><a href="#categories">Event Categories</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="history" class="section">
-    <h2>Our Family History</h2>
-    <p>Our family has a rich history that spans generations. From humble beginnings to remarkable achievements, we take pride in the legacy of our ancestors.</p>
-    <p>Originating from Sylhet, Bangladesh, our family has grown and spread across the globe. This website is dedicated to preserving and sharing the stories of our lineage.</p>
-  </section>
-
-  <section id="members" class="section">
-    <h2>Notable Family Members</h2>
-    <ul>
-      <li><strong> Salah-Uddin Choudhury (1885 - 1938):</strong> A land owner tho introduced new farming techniques to the Johirpur District.</li>
-      <li><strong> Halima Begum Choudhury (1902 - 1954):</strong> Inheriting fruit farms from her father, she expanded the business to become a dominant force in the jackfruit trade in the Sreemangal Distrcit during the 1930s.</li></ul>
-  </section>
-
-  <section id="tree" class="section">
-    <h2>Our Family Tree</h2>
-    <p>The diagram below represents our family tree:</p>
-    <!-- Placeholder for family tree -->
-    <div class="tree">
-      <p>[Insert a graphic or description of your family tree here]</p>
+  <section id="featured" class="section">
+    <h2>Featured Events</h2>
+    <div class="event">
+      <h3>Christmas at Kew</h3>
+      <p>Date: November - January</p>
+      <p>Location: Kew Gardens</p>
+      <p>Description: Enjoy a magical light trail through the gardens, perfect for families during the festive season.</p>
     </div>
+
+    <div class="event">
+      <h3>The Robot Zoo</h3>
+      <p>Date: Until November 2, 2025</p>
+      <p>Location: Horniman Museum</p>
+      <p>Description: Explore oversized robotic animals and learn how they mimic real-life creatures.</p>
+    </div>
+
+    <div class="event">
+      <h3>Imagine Festival</h3>
+      <p>Date: February Half-Term</p>
+      <p>Location: Southbank Centre</p>
+      <p>Description: A children's literature-themed festival with performances, workshops, and creative activities for ages 0-11.</p>
+    </div>
+
+    <div class="event">
+      <h3>House of Holi</h3>
+      <p>Date: March 8-16, 2025</p>
+      <p>Location: Cinnamon Kitchen</p>
+      <p>Description: Celebrate Holi with a vibrant paint-throwing experience that's fun for the whole family.</p>
+    </div>
+
+    <div class="event">
+      <h3>Back to the Future Musical</h3>
+      <p>Date: Ongoing</p>
+      <p>Location: Adelphi Theatre</p>
+      <p>Description: A family-friendly musical adaptation of the iconic movie.</p>
+    </div>
+  </section>
+
+  <section id="categories" class="section">
+    <h2>Event Categories</h2>
+    <ul class="categories-list">
+      <li><strong>Museums & Exhibitions:</strong> The Robot Zoo, Making Egypt at Young V&A, Wildlife Photography at Natural History Museum.</li>
+      <li><strong>Theatre & Performances:</strong> Imagine Festival, Back to the Future Musical, The Pea and the Princess at Polka Theatre.</li>
+      <li><strong>Outdoor Activities:</strong> Christmas at Kew, Land of the Lions at London Zoo.</li>
+      <li><strong>Workshops & Interactive Events:</strong> Family Freestyle Dance at Sadler’s Wells, Art Sundays at Dulwich Picture Gallery.</li>
+    </ul>
   </section>
 
   <section id="contact" class="section">
     <h2>Contact Us</h2>
     <form id="contact-form">
-      <label for="name">Name:</
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" required></textarea><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Family-Friendly Events in London. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
