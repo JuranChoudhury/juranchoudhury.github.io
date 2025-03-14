@@ -6,7 +6,8 @@
 </head>
 <body>
   <header>
-    <h1>Family-Friendly Events in London</h1>
+    <h1>Family Funday! (FamFunday.co.uk)</h1>
+    <h2>The site that recommends family-friendly events in London</h2>
     <nav>
       <ul class="navbar">
         <li><a href="#featured">Featured Events</a></li>
