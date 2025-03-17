@@ -141,7 +141,7 @@
 
 </header>
 <h2>Contact Us</h2>
-<form id="contact-form"><label for="name">Name:</label><br /> <input id="name" name="name" required="" type="text" /><br /> <label for="email">Email:</label><br /> <input id="email" name="email" required="" type="email" /><br /> <label for="message">Message:</label><br /> <textarea id="message" name="message" required="" rows="4"></textarea><br /> <button type="submit">Submit</button></form></section>
+<form id="contact-form"><label for="name">Name:</label><br /> <input id="name" name="name" required="" type="text" /><br /> <label for="email">Email:</label><br /> <input id="email" name="email" required="" type="email" /><br /> <label for="message">Message:</label><br /> <textarea id="message" name="message" required="" rows="4"></textarea><br /> <button type="submit">Submit</button></form>
 
 
 
