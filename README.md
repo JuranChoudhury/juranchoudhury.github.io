@@ -74,7 +74,6 @@
                 <li><a href="#featured">Featured Events</a></li>
                 <li><a href="#categories">Event Categories</a></li>
                 <li><a href="#contact">Contact Us</a></li>
-                <li><a href="#payment">Complete Your Payment</a></li>
             </ul>
         </nav>
     </header>
