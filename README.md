@@ -53,7 +53,7 @@
 <li><strong>Workshops &amp; Interactive Events:</strong> Family Freestyle Dance at Sadler&rsquo;s Wells, Art Sundays at Dulwich Picture Gallery.</li>
 </ul>
 </section>
-<div class="payment-section">
+ <div class="payment-section">
     <h2>Event Booking</h2>
     <div class="form-group">
         <label for="eventSelect">Select Event:</label>
@@ -81,6 +81,28 @@
         <div id="priceDisplay">£0.00</div>
     </div>
 </div>
+
+<script>
+    function updatePrice() {
+        const eventSelect = document.getElementById('eventSelect');
+        const numTickets = document.getElementById('numTickets');
+        const priceDisplay = document.getElementById('priceDisplay');
+        const ticketPrice = 10; // £10 per ticket
+
+        const selectedEvent = eventSelect.value;
+        const selectedTickets = parseInt(numTickets.value) || 0;
+
+        if (selectedEvent && selectedTickets > 0) {
+            const total = selectedTickets * ticketPrice;
+            priceDisplay.textContent = `£${total.toFixed(2)}`;
+        } else {
+            priceDisplay.textContent = '£0.00';
+        }
+    }
+
+    // Initial call to set up the price display
+    updatePrice();
+</script>
 
 <script>
     function updatePrice() {
