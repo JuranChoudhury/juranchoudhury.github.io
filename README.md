@@ -14,6 +14,7 @@
         <li><a href="#featured">Featured Events</a></li>
         <li><a href="#categories">Event Categories</a></li>
         <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#contact">Complete Your Payment</a></li>
       </ul>
     </nav>
   </header>
@@ -65,101 +66,6 @@
       <li><strong>Workshops & Interactive Events:</strong> Family Freestyle Dance at Sadler’s Wells, Art Sundays at Dulwich Picture Gallery.</li>
     </ul>
   </section>
-
-  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <form id="contact-form">
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br />
-
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br />
-
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="4" required></textarea><br />
-
-      <button type="submit">Submit</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Family-Friendly Events in London. All rights reserved.</p>
-  </footer>
-
-  <!-- Link to JavaScript -->
-  <script src="script.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Page - Family-Friendly Days Out in London</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 20px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        .payment-form {
-            background-color: #fff;
-            border-radius: 5px;
-            padding: 20px;
-            max-width: 400px;
-            margin: auto;
-        }
-        .payment-form h2 {
-            margin-top: 0;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input, select, button {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Complete Your Payment</h1>
-</header>
-
-<main>
     <title>Event Booking System</title>
     <style>
         .payment-section {
@@ -191,9 +97,9 @@
             <label for="eventSelect">Select Event:</label>
             <select id="eventSelect">
                 <option value="">Choose an event...</option>
-                <option value="concert">Summer Concert (£10/ticket)</option>
-                <option value="conference">Tech Conference (£10/ticket)</option>
-                <option value="workshop">DevOps Workshop (£10/ticket)</option>
+                <option value="concert">Christmas at Kew (£10/ticket)</option>
+                <option value="conference">The Robot Zoo (£10/ticket)</option>
+                <option value="workshop">Imagine Festival (£10/ticket)</option>
             </select>
         </div>
 
@@ -284,6 +190,100 @@
         document.getElementById('quantity').value = quantity;
     }
 </script>
+<header>
+    <h1>Complete Your Payment</h1>
+</header>
+
+<main>
 
 </body>
 </html>
+
+      .payment-form {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+        }
+        .payment-form h2 {
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+         <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" required></textarea><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+ <footer>
+    <p>&copy; 2025 Family-Friendly Events in London. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page - Family-Friendly Days Out in London</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
