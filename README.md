@@ -54,25 +54,55 @@
 </ul>
 </section>
 <div class="payment-section">
-<h2>Event Booking</h2>
-<div class="form-group"><label for="eventSelect">Select Event:</label><select id="eventSelect">
-<option value="">Choose an event...</option>
-<option value="concert">Christmas at Kew (&pound;10/ticket)</option>
-<option value="conference">The Robot Zoo (&pound;10/ticket)</option>
-<option value="workshop">Imagine Festival (&pound;10/ticket)</option>
-</select></div>
-<div class="form-group"><label for="numTickets">Number of Tickets:</label><select id="numTickets">
-<option value="0">Select quantity...</option>
-<option value="1">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-<option value="5">5</option>
-<option value="6">6</option>
-</select></div>
-<div class="form-group"><label>Total Price:</label>
-<div id="priceDisplay">&pound;0.00</div>
+    <h2>Event Booking</h2>
+    <div class="form-group">
+        <label for="eventSelect">Select Event:</label>
+        <select id="eventSelect" onchange="updatePrice()">
+            <option value="">Choose an event...</option>
+            <option value="concert">Christmas at Kew (£10/ticket)</option>
+            <option value="conference">The Robot Zoo (£10/ticket)</option>
+            <option value="workshop">Imagine Festival (£10/ticket)</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="numTickets">Number of Tickets:</label>
+        <select id="numTickets" onchange="updatePrice()">
+            <option value="0">Select quantity...</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Total Price:</label>
+        <div id="priceDisplay">£0.00</div>
+    </div>
 </div>
+
+<script>
+    function updatePrice() {
+        const eventSelect = document.getElementById('eventSelect');
+        const numTickets = document.getElementById('numTickets');
+        const priceDisplay = document.getElementById('priceDisplay');
+        const ticketPrice = 10; // £10 per ticket
+
+        const selectedEvent = eventSelect.value;
+        const selectedTickets = parseInt(numTickets.value) || 0;
+
+        if (selectedEvent && selectedTickets > 0) {
+            const total = selectedTickets * ticketPrice;
+            priceDisplay.textContent = `£${total.toFixed(2)}`;
+        } else {
+            priceDisplay.textContent = '£0.00';
+        }
+    }
+
+    // Initial call to set up the price display
+    updatePrice();
+</script>
 </div>
 <!-- Cardholder Name -->
 <div class="form-group"><label for="cardholder">Cardholder Name:</label> <input id="cardholder" name="cardholder" required="" type="text" placeholder="Enter your name" /></div>
