@@ -20,7 +20,7 @@
   <section id="featured" class="section">
     <h2>Featured Events</h2>
     <div class="event">
-      <h3>Christmas at Kew</h3>
+      <h3>Christmas at Kew - 2025</h3>
       <p>Date: November - January</p>
       <p>Location: Kew Gardens</p>
       <p>Description: Enjoy a magical light trail through the gardens, perfect for families during the festive season.</p>
@@ -28,21 +28,21 @@
 
     <div class="event">
       <h3>The Robot Zoo</h3>
-      <p>Date: Until November 2, 2025</p>
+      <p>Date: August 1st - November 2, 2025</p>
       <p>Location: Horniman Museum</p>
       <p>Description: Explore oversized robotic animals and learn how they mimic real-life creatures.</p>
     </div>
 
     <div class="event">
       <h3>Imagine Festival</h3>
-      <p>Date: February Half-Term</p>
+      <p>Date: Easter Holiday</p>
       <p>Location: Southbank Centre</p>
       <p>Description: A children's literature-themed festival with performances, workshops, and creative activities for ages 0-11.</p>
     </div>
 
     <div class="event">
       <h3>House of Holi</h3>
-      <p>Date: March 8-16, 2025</p>
+      <p>Date: April 8-16, 2025</p>
       <p>Location: Cinnamon Kitchen</p>
       <p>Description: Celebrate Holi with a vibrant paint-throwing experience that's fun for the whole family.</p>
     </div>
