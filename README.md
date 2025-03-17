@@ -125,7 +125,6 @@
     // Initial call to set up the price display
     updatePrice();
 </script>
-</div>
 <!-- Cardholder Name -->
 <div class="form-group"><label for="cardholder">Cardholder Name:</label> <input id="cardholder" name="cardholder" required="" type="text" placeholder="Enter your name" /></div>
 <!-- Card Number -->
